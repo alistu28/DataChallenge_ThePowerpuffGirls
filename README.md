@@ -1,8 +1,4 @@
-# Telco Insight Hub 
-
-## Project Overview
-
-This repository hosts the codebase and documentation for the Telco Insight Hub, a dynamic customer insights platform developed as part of the Data Science Weekend (DSW) 2023 event by Data Science Indonesia. The project aims to tackle the high churn rate faced by a Telco Company.
+# Welcome to the Telco Insight Hub Project Repository!
 
 ## Event Details
 
