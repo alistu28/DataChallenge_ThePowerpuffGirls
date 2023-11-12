@@ -20,9 +20,9 @@ This repository contains the codebase and documentation for the Telco Insight Hu
 4. Not knowing customer needs leads to ineffective treatment strategies, affecting overall customer satisfaction.
 5. Internal challenges create a loop, as the absence of segmentation and customer understanding reinforces the initial problem of high churn rates.
 
-## Solution: Telco Insight Hub
+## Solution
 
-In response to the critical need for dynamic insights into customer behavior, the Telco Insight Hub proposes an innovative and user-friendly platform. This platform aims to transform how the company understands and engages with its customer base.
+In response to the crucial need for dynamic insights into customer behavior, we propose the development of the **Telco Insight Hub**-an innovative and user-friendly platform positioned to transform how we understand and engage with our customer base.
 
 ### Key Features
 
