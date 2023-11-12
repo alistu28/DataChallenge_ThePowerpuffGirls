@@ -3,7 +3,7 @@ pandas
 plotly.express
 streamlit_option_menu
 Pillow==9.5.0
-babel.numbers
+babel==2.13.1
 pickle
 joblib
 numpy
