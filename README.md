@@ -14,7 +14,11 @@ This repository contains the codebase and documentation for the Telco Insight Hu
 
 ## Problem Statement
 
-The Telco Company is grappling with a high churn rate of almost 30%, posing a significant threat to its revenue. The lack of a clear customer segmentation strategy exacerbates the issue, leading to ineffective treatment strategies and impacting overall customer satisfaction.
+1. The Telco Company is facing a high churn rate of almost 30%, a pressing issue that requires urgent attention.
+2. Research by Tianpei Xu et al. shows that retaining existing customers is 5-10 times more cost-effective than acquiring new ones, underscoring the significant financial impact of a high churn rate on revenue.
+3. The company struggles with not having a clear customer segmentation strategy internally, making it difficult to tailor approaches to meet customer needs.
+4. Not knowing customer needs leads to ineffective treatment strategies, affecting overall customer satisfaction.
+5. Internal challenges create a loop, as the absence of segmentation and customer understanding reinforces the initial problem of high churn rates.
 
 ## Solution: Telco Insight Hub
 
