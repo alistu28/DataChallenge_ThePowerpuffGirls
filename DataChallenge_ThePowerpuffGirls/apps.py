@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 
 
-data = pd.read_csv('dataset/telco_data_clustered.csv')
+data = pd.read_csv('DataChallenge_ThePowerpuffGirls/dataset/telco_data_clustered.csv')
 
 st.set_page_config(layout="wide")
 
