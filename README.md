@@ -1,4 +1,4 @@
-# Telco Insight Hub 🚀
+# Telco Insight Hub 
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ This repository hosts the codebase and documentation for the Telco Insight Hub, 
 - **Theme:** Nurturing Data AI and Digital Talent for Tomorrow
 - **Event Type:** Data Challenge
 
-## Problem Statement 📉
+## Problem Statement 
 
 1. The Telco Company is grappling with a high churn rate of almost 30%, demanding urgent attention.
 2. Research by Tianpei Xu et al. emphasizes the cost-effectiveness of retaining existing customers (5-10 times more) compared to acquiring new ones, highlighting the financial impact of high churn rates on revenue.
@@ -20,7 +20,7 @@ This repository hosts the codebase and documentation for the Telco Insight Hub, 
 4. Ineffective treatment strategies, stemming from a lack of customer needs understanding, adversely impact overall customer satisfaction.
 5. Internal challenges create a loop, with the absence of segmentation and customer understanding reinforcing the initial problem of high churn rates.
 
-## Solution 💡
+## Solution 
 
 In response to the critical need for dynamic insights into customer behavior, we introduce the **Telco Insight Hub** - an innovative and user-friendly platform poised to revolutionize how we understand and engage with our customer base.
 
@@ -32,6 +32,6 @@ In response to the critical need for dynamic insights into customer behavior, we
 4. **Churn Predictor:** Proactively identifying potential churn, enabling effective retention strategies.
 5. **Smart Product Recommender:** Offering personalized product usage recommendations to enhance customer satisfaction.
 
-## Acknowledgments 🙏
+## Acknowledgments 
 
 We express our gratitude to Data Science Indonesia for organizing the Data Science Weekend 2023 event, providing an opportunity to work on impactful projects like the Telco Insight Hub.
