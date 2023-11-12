@@ -18,7 +18,7 @@ bokeh==3.2.1
 branca==0.6.0
 bs4==0.0.1
 cachetools==5.3.1
-category_encoders==2.6.1
+category_encoders==2.2.2
 certifi==2023.5.7
 cffi==1.15.1
 chardet==3.0.4
