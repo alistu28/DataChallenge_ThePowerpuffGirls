@@ -13,7 +13,7 @@ data = pd.read_csv('DataChallenge_ThePowerpuffGirls/dataset/telco_data_clustered
 
 st.set_page_config(layout="wide")
 
-image = Image.open('image/TELCO INSIGHT HUB.png')
+image = Image.open('DataChallenge_ThePowerpuffGirls/image/TELCO INSIGHT HUB.png')
 
 col1, col2, col3 = st.columns([1, 11, 1])
 
@@ -286,10 +286,10 @@ if selected == 'Customer Segmentation':
         col1, col2, col3, col4 = st.columns(4)
 
         image_paths = [
-            "image/ccr/1.png",
-            "image/ccr/2.png",
-            "image/ccr/3.png",
-            "image/ccr/4.png"
+            "DataChallenge_ThePowerpuffGirls/image/ccr/1.png",
+            "DataChallenge_ThePowerpuffGirls/image/ccr/2.png",
+            "DataChallenge_ThePowerpuffGirls/image/ccr/3.png",
+            "DataChallenge_ThePowerpuffGirls/image/ccr/4.png"
         ]
 
         with col1:
@@ -311,10 +311,10 @@ if selected == 'Customer Segmentation':
         col1, col2, col3, col4 = st.columns(4)
 
         image_paths = [
-            "image/lhv/1.png",
-            "image/lhv/2.png",
-            "image/lhv/3.png",
-            "image/lhv/4.png"
+            "DataChallenge_ThePowerpuffGirls/image/lhv/1.png",
+            "DataChallenge_ThePowerpuffGirls/image/lhv/2.png",
+            "DataChallenge_ThePowerpuffGirls/image/lhv/3.png",
+            "DataChallenge_ThePowerpuffGirls/image/lhv/4.png"
         ]
 
         with col1:
@@ -336,10 +336,10 @@ if selected == 'Customer Segmentation':
         col1, col2, col3, col4 = st.columns(4)
 
         image_paths = [
-            "image/basus/1.png",
-            "image/basus/2.png",
-            "image/basus/3.png",
-            "image/basus/4.png"
+            "DataChallenge_ThePowerpuffGirls/image/basus/1.png",
+            "DataChallenge_ThePowerpuffGirls/image/basus/2.png",
+            "DataChallenge_ThePowerpuffGirls/image/basus/3.png",
+            "DataChallenge_ThePowerpuffGirls/image/basus/4.png"
         ]
 
         with col1:
@@ -361,10 +361,10 @@ if selected == 'Customer Segmentation':
         col1, col2, col3, col4 = st.columns(4)
 
         image_paths = [
-            "image/newen/1.png",
-            "image/newen/2.png",
-            "image/newen/3.png",
-            "image/newen/4.png"
+            "DataChallenge_ThePowerpuffGirls/image/newen/1.png",
+            "DataChallenge_ThePowerpuffGirls/image/newen/2.png",
+            "DataChallenge_ThePowerpuffGirls/image/newen/3.png",
+            "DataChallenge_ThePowerpuffGirls/image/newen/4.png"
         ]
 
         with col1:
@@ -389,7 +389,7 @@ def display_product_recommendations(segment, product_rankings, product_usage):
 
     for icon, caption in product_rankings[segment]:
         if caption not in product_usage:
-            icon_path = f"image/{icon}"
+            icon_path = f"DataChallenge_ThePowerpuffGirls/image/{icon}"
 
             if index % 4 == 0:
                 with col1:
@@ -425,7 +425,7 @@ if selected == 'Smart Product Recommender':
         with col2:
             reset_button = st.form_submit_button(label='Reset')
 
-    with open('models/rec_sys_telco.sav', 'rb') as model_file:
+    with open('DataChallenge_ThePowerpuffGirls/models/rec_sys_telco.sav', 'rb') as model_file:
         classification_model = pickle.load(model_file)
 
     segment_mapping = {
@@ -510,19 +510,19 @@ if selected == 'Customer Churn Predictor':
 
         user_data = pd.DataFrame(user_data_dict)
 
-        le_location = joblib.load("models/le_location.joblib")
-        le_device_class = joblib.load("models/le_device_class.joblib")
-        le_payment_method = joblib.load("models/le_payment_method.joblib")
-        le_games_product = joblib.load("models/le_games_product.joblib")
-        le_music_product = joblib.load("models/le_music_product.joblib")
-        le_education_product = joblib.load("models/le_education_product.joblib")
-        le_video_product = joblib.load("models/le_video_product.joblib")
-        le_call_center = joblib.load("models/le_call_center.joblib")
-        le_use_myapp = joblib.load("models/le_use_myapp.joblib")
-        le_internet_service = joblib.load("models/le_internet_service.joblib")
-        scaler_Tenure = joblib.load("models/scaler_Tenure Months.joblib")
-        scaler_CLTV = joblib.load("models/scaler_CLTV (Predicted Thou. IDR).joblib")
-        scaler_Monthly = joblib.load("models/scaler_Monthly Purchase (Thou. IDR).joblib")
+        le_location = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_location.joblib")
+        le_device_class = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_device_class.joblib")
+        le_payment_method = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_payment_method.joblib")
+        le_games_product = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_games_product.joblib")
+        le_music_product = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_music_product.joblib")
+        le_education_product = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_education_product.joblib")
+        le_video_product = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_video_product.joblib")
+        le_call_center = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_call_center.joblib")
+        le_use_myapp = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_use_myapp.joblib")
+        le_internet_service = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_internet_service.joblib")
+        scaler_Tenure = joblib.load("DataChallenge_ThePowerpuffGirls/models/scaler_Tenure Months.joblib")
+        scaler_CLTV = joblib.load("DataChallenge_ThePowerpuffGirls/models/scaler_CLTV (Predicted Thou. IDR).joblib")
+        scaler_Monthly = joblib.load("DataChallenge_ThePowerpuffGirls/models/scaler_Monthly Purchase (Thou. IDR).joblib")
 
         categorical_columns = ['Location', 'Device Class', 'Payment Method', 'Games Product', 'Music Product',
                             'Education Product', 'Video Product', 'Call Center', 'Use MyApp', 'Internet Service']
@@ -573,8 +573,8 @@ if selected == 'Customer Churn Predictor':
             
         preprocessed_df = data_preprocessing(user_data)
 
-        model = joblib.load("models/model_xgb.joblib")
-        result_target = joblib.load("models/le_churn_label.joblib")
+        model = joblib.load("DataChallenge_ThePowerpuffGirls/models/model_xgb.joblib")
+        result_target = joblib.load("DataChallenge_ThePowerpuffGirls/models/le_churn_label.joblib")
 
 
         def prediction(data):
