@@ -2,7 +2,7 @@ streamlit
 pandas
 plotly.express
 streamlit_option_menu
-PIL 9.5.0
+Pillow==9.5.0
 babel.numbers
 pickle
 joblib
